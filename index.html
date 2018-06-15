@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aditya Marathe</title>
+    <link rel="icon" href="images/logo-photoshop-black.png"/>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="hover/css/hover.css">
+    <link rel="stylesheet" href="icons/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="home.js"></script>
+</head>
+<body>
+    <nav class="uk-navbar-container" uk-navbar id="navbar-back">
+        <div class="uk-navbar-left uk-light">
+            <a class="uk-navbar-item uk-active uk-link-reset" href="#" id="logo"><img src="images/logo-photoshop.png" height="70" width="70" alt=""></a>
+        </div>
+        <div class="uk-navbar-right uk-light">
+            <div class="uk-navbar-item">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active uk-visible@l"><a href="index.html" ><button class="uk-button uk-button-text">Home</button></a></li>
+                    <li class="uk-visible@l"><a href="#" ><button class="uk-button uk-button-text">About Me</button></a></li>
+                    <li class="uk-visible@l" ><a href="#myapp" uk-scroll><button class="uk-button uk-button-default " id="js-scroll-trigger">My App</button></a></li>
+                    <li class="uk-hidden@l">
+                            <div class="uk-offcanvas-content uk-hidden@l">
+                                    <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="" uk-toggle="target:#offcanvas-overlay"></a>
+                                    <div id="offcanvas-overlay" uk-offcanvas="flip:true overlay-true">
+                                      <div class="uk-offcanvas-bar">
+                          
+                                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                        <div class="spacer"></div>
+                                        <ul class="uk-nav-default uk-nav-parent-icon uk-nav-primary" uk-nav>
+                                          <li class="uk-active"><a href="index.html"><span class="uk-margin-small-right" uk-icon="icon:home"></span>Home</a></li>
+                                          <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon:info"></span>About us</a></li>
+                                          <li><a href="#" ><button class="uk-button uk-button-default " id="js-scroll-trigger">My App</button></a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                             </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="intro">
+        <div class="inner">
+            <div class="content">
+                <h1>
+                     <h1 class="typewrite" data-period="2000" data-type='[ "Hi, Im Aditya.", "I am a Programmer.", "I Love to Design.", "I Love to Develop." ]'>
+                            <span class="wrap"></span>
+                     </h1>
+                </h1>
+                <h4>Hey guys , I am Aditya <br> I do Web and Mobile Development.  I also make Designs and make professional powerpoint presentations.</h4>
+                <p class="uk-margin">
+                    <a href="#"><button class="uk-button uk-button-default but" id="cover-button">Youtube Channel</button></a>
+                    <a href="#blogs" uk-scroll><button class="uk-button uk-button-default but" id="cover-button" >Blogs</button></a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="uk-section uk-section-muted" id="blogs">
+        <div class="uk-container">
+            <h2 class="blogs anim-typewriter" data-text="My Latest Blogs">My Latest Blogs</h2>
+            <div class="spacer"></div>
+            <div class="uk-child-width-1-3@m" uk-grid>
+                    <div>
+                        <a href="blog1.html" class="uk-link-reset">
+                        <div class="uk-card uk-card-default card-anim">
+                            <div class="uk-card-badge uk-label" id="badge">New</div>
+                            <div class="uk-card-media-top">
+                                <img src="images/prototype2.jpg" alt="" height="60">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">The Best Prototyping Tools</h3>
+                                <p>What is prototyping? Why you should a designer or developer use it and tools for prototyping.</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default card-anim ">
+                            <div class="uk-card-badge uk-label" id="badge">New</div>
+                            <div class="uk-card-media-top">
+                                <img src="images/prototype2.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Media Top</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>                                </div>
+                        </div>
+                   </div>
+                   <div>
+                        <div class="uk-card uk-card-default card-anim ">
+                            <div class="uk-card-media-top uk-cover-container">
+                                <img src="images/prototype.jpg" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Media Top</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>                                </div>
+                        </div>
+                   </div>
+            </div>
+            <div class="spacer"></div>
+            <a href="#"><button class="uk-button uk-button-default" id="more">More</button></a>
+        </div>
+    </div>
+ 
+    <footer>
+        <div class="uk-section uk-section-secondary">
+            <div class="uk-container">
+                <h4>©Aditya Marathe | 2018</h4>
+                <p>
+                        <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                        <a href="#"><i id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+            UIkit.util.on('#scroll-trigger', 'scrolled', function () {
+                alert('Done.');
+            });
+    </script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+As the world is modern now , nobody uses the method of prototyping as shown in the image above, instead every developer uses "Prototyping Tools" which is very easy to 
+use and maintain. Before we move on for prototyping tools , lets get the concept of prototying :
+
+It refers to an initial stage of your software or website .It is an integral part of Design Thinking and User Experience design in general because it allows us to test our ideas quickly and improve on them in an equally timely fashion.
+
+
+So why should we do prototyping? , Lets say you are working as a freelancer and your client tells you to develop website/app for him , he will explain you the idea of website/app and then you start to develop it and after finishing the actual website/app you show it to your client but if he doesn't like the UI of website/app , it will be a headache for you as a developer. So to avoid such situation, prototyping is the solution. Just make a prototype of the website/app confirm from the client wheather he likes the UI or not then start the actual development of website/app. 
+
+Now,here are some prototyping tools you can check out :    

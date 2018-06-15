@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+@import url('https//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/*
+    Navbar Styles
+*/
+.spacer{
+    height: 50px;
+}
+
+#navbar-back{
+    background: #000;
+    color: #fff;
+    padding-left: 10px;
+    height: 90px;
+}
+ #logo{
+     font-size: 40px;
+    align-self: center;
+    padding-bottom: 7px;
+ }
+
+ #js-scroll-trigger{
+     background-color: #fff;
+     color: #000;
+     border-radius: 5px;
+     font-weight: bold;
+ }
+
+#js-scroll-trigger:hover{
+    background-color: #000;
+    color: white;
+}
+
+/* Permanent Blog Items  */
+
+#cover-photo{
+    margin: 0;
+}
+
+.full-page{
+    background: #F4F7F6;
+}
+
+.blog-title{
+    font-weight: bolder;
+    align-content: center;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+}
+.blog-subtitle{
+    font-family: 'Raleway',sans-serif;
+    align-content: center;
+    text-align: center;
+    margin-top: 0px;
+}
+.blog-ans{
+    font-family: 'Raleway',sans-serif;
+    margin-top: 0px;
+}
+
+#name{
+    font-weight: bold;
+}
+#date{
+    color: rgb(2, 170, 170);
+    font-weight: bold;
+}
+#content-blog{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway',sans-serif;
+}
+.topic-name{
+    color: aqua;
+    font-weight: bold;
+}
+.topic-name:hover{
+    color: #000;
+}
+
+ /*End*/
+
+ /*Footer*/
+
+#footer{
+    text-align: center;
+}
+
+ .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+/*End*/
